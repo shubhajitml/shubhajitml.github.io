@@ -18,7 +18,7 @@ section{padding-top:40px; padding-bottom:40px;}
 
 .navbar-brand img{margin-top:-5px;}
 
-.hero{background:url("../images/datasets.png") no-repeat center; background-size:cover; padding-top:5rem; padding-bottom:4rem;}
+.hero{background:url("../images/cover.jpg") no-repeat center; background-size:cover; padding-top:5rem; padding-bottom:4rem;}
 .dp-img{max-width:100%; width:200px; border-radius:50%; border:solid 2px rgba(255,255,255,.75)}
 
 .social-links{list-style:none; padding:0;}
