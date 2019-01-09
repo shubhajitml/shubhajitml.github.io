@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,400i,700);
+
+body {padding-top: 3.9rem;font-family:Lato;font-weight: 400; font-size:15px; letter-spacing:.5px;}
+
+section{padding-top:40px; padding-bottom:40px;}
+.white-text{color:white; text-shadow:2px 3px 6px rgba(0,0,0,.9);}
+.white-text a{color:white;}
+
+.navbar-custom{background:#0D47A1; border:0 none; border-top:solid 2px #EC407A; box-shadow:1px 3px 3px rgba(0,0,0,.1)}
+.navbar-custom a{color:#fff;}
+.navbar-nav .nav-link{color:rgba(255,255,255,.6);}
+.nav-item:hover{background:rgba(255,255,255,.1);}
+.nav-item.active .nav-link{color:#fff;}
+.navbar-expand-md .navbar-nav .nav-link {padding-right: 1rem; padding-left: 1rem;}
+
+.navbar-custom .navbar-toggler {color: rgba(255,255,255,.5); border-color: rgba(255,255,255,.1);}
+.navbar-custom .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");}
+
+.navbar-brand img{margin-top:-5px;}
+
+.hero{background:url("../images/datasets.png") no-repeat center; background-size:cover; padding-top:5rem; padding-bottom:4rem;}
+.dp-img{max-width:100%; width:200px; border-radius:50%; border:solid 2px rgba(255,255,255,.75)}
+
+.social-links{list-style:none; padding:0;}
+.social-links li{float:left; margin-right:40px;}
