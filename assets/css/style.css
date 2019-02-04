@@ -26,6 +26,10 @@ section{padding-top:40px; padding-bottom:40px;}
 
 .social-links{list-style:none; padding:0;}
 .social-links li{float:left; margin-right:40px;}
+.social-links a{font-size: 3rem;}
+@media (min-width: 768px) {
+    .social-links a{font-size: 4rem;}
+}
 
 .certificate-img img{margin-bottom:30px;}
 
