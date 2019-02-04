@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Creative Nerds">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+
+    <title>Shubhajit Das</title>
+
+	<!--Bootstrap-->
+    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+	<!-- Icons -->
+
+	<!-- Main styles for this application -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+
+<body id="root" class="">
+
+ <nav class="navbar navbar-expand-md fixed-top navbar-custom">
+	<div class="container">
+		<a class="navbar-brand" href="index.html"><span>AI</span> <small>In The Service Of Mankind</small></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item ">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="experience.html">Experience</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="projects.html">Projects</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="certification.html">Certification</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" target="_blank" href="assets/files/Shubhajit_Das.pdf">Resume</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav><!-- Main content -->
+
+<div class="myscreen">
+    <section>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-xs-12 col-sm-4 text-center">
+                    <img src="assets/images/which-crop-disease.jpg" alt="dog_breed" class="img-fluid">
+    			</div>
+    			<div class="col-xs-12 col-sm-8">
+    				<h4>Crop Disease Detector</h4>
+                    <ul>
+                        <li>Trained resnet-50 with <a href="https://arxiv.org/abs/1803.09820" target="_blank" ><strong>one-cycle-policy</strong></a> for plant disease finegrained classification using fastai.</li>
+                        <li>The model is capable of classifying a total of <strong>14</strong> crop classes and beated the previous models with an accuracy of 99.73% within 1.6 hr of training on a Tesla P4 instance.</li>
+                        <li>The custom dataset is consisted of 38 classes from <a href="https://plantvillage.org/" target="_blank" >PlantVillage</a> dataset and 1 background class from Stanford's open dataset of background images - <a href="http://dags.stanford.edu/projects/scenedataset.html" target="_blank" >DAGS</a>, finally this was divided into a train-validation ratio of 80:20</li>
+                    </ul>
+                    <a href="https://which-crop-disease.onrender.com/" target="_blank" class="btn btn-primary mx-5"><i class="fas fa-desktop"></i> Demo</a>
+                    <a href="https://github.com/shubhajitml/crop-disease-detector" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> Code</a>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <section>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-xs-12 col-sm-4 text-center">
+                    <img src="assets/images/dog_breed.png" alt="dog_breed" class="img-fluid">
+    			</div>
+    			<div class="col-xs-12 col-sm-8">
+    				<h4>Dog Breed Classifier</h4>
+                    <ul>
+                        <li>Finetuned the Resnet101 model to identify the dog-breed in dog-images (out of 120 breeds)</li>
+                        <li>Used fastai for augmentation, training, validation and testing</li>
+                        <li>Owned a validation accuracy of 92.22%</li>
+                    </ul>
+                    <a href="https://github.com/shubhajitml/Kaggle/blob/master/dogbreed/dog-breed.ipynb" target="_blank" class="btn btn-primary mx-5"><i class="fab fa-github"></i> Code</a>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+</div>
+
+	<footer class="text-center">
+		<hr>
+		<p>
+		&copy; 2019. All Rights Reserved.  shubhajitml.github.io
+		</p>
+	</footer>
+    <script src="plugins/bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="plugins/bootstrap/js/popper.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
+	<script>
+		$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+		  event.preventDefault();
+		  $(this).ekkoLightbox();
+		});
+	</script>
+
+</body>
+</html>

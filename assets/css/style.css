@@ -17,9 +17,16 @@ section{padding-top:40px; padding-bottom:40px;}
 .navbar-custom .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");}
 
 .navbar-brand img{margin-top:-5px;}
+.navbar-brand{ line-height: 1.4;}
+.navbar-brand small{opacity: .75;}
+.navbar-brand span{letter-spacing: 3px; font-size: 25px;}
 
 .hero{background:url("../images/cover.jpg") no-repeat center; background-size:cover; padding-top:5rem; padding-bottom:4rem;}
 .dp-img{max-width:100%; width:200px; border-radius:50%; border:solid 2px rgba(255,255,255,.75)}
 
 .social-links{list-style:none; padding:0;}
 .social-links li{float:left; margin-right:40px;}
+
+.certificate-img img{margin-bottom:30px;}
+
+.myscreen{min-height: calc(100vh - 155px);}
