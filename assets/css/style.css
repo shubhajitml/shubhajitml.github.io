@@ -24,11 +24,12 @@ section{padding-top:40px; padding-bottom:40px;}
 .hero{background:url("../images/cover.jpg") no-repeat center; background-size:cover; padding-top:5rem; padding-bottom:4rem;}
 .dp-img{max-width:100%; width:200px; border-radius:50%; border:solid 2px rgba(255,255,255,.75)}
 
-.social-links{list-style:none; padding:0;}
-.social-links li{float:left; margin-right:40px;}
-.social-links a{font-size: 3rem;}
+.social-linking{list-style:none; padding:0;}
+.social-linking li{float:left; margin-right:25px;}
+.social-linking a{font-size: 3rem;}
 @media (min-width: 768px) {
-    .social-links a{font-size: 4rem;}
+    .social-linking li{float:left; margin-right:40px;}
+    .social-linking a{font-size: 4rem;}
 }
 
 .certificate-img img{margin-bottom:30px;}
