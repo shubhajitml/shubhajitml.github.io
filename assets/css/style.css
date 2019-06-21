@@ -25,10 +25,10 @@ section{padding-top:40px; padding-bottom:40px;}
 .dp-img{max-width:100%; width:200px; border-radius:50%; border:solid 2px rgba(255,255,255,.75)}
 
 .social-linking{list-style:none; padding:0;}
-.social-linking li{float:left; margin-right:25px;}
+.social-linking li{float:left; margin-right:27px;}
 .social-linking a{font-size: 3rem;}
 @media (min-width: 768px) {
-    .social-linking li{float:left; margin-right:40px;}
+    .social-linking li{float:left; margin-right:27px;}
     .social-linking a{font-size: 4rem;}
 }
 
